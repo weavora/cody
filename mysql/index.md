@@ -79,3 +79,8 @@ But it's __important__ to specify index name manually and don't use mysql index 
 1. For `boolean` columns use `TINYINT(1) UNSIGNED NOT NULL DEFAULT 0`
 2. For `datetime` columns use `DATETIME`
 3. Don't use timestamps
+
+## TODO
+
+1. ENUM usage
+2. BIT usage
