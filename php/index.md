@@ -62,6 +62,7 @@ Key question here is whether to make you methods protected or private by default
 Here are some references to related discussions:
 
 [Fabien Potencier. Pragmatism over Theory: Protected vs Private](http://fabien.potencier.org/article/47/pragmatism-over-theory-protected-vs-private) 
+
 [PRIVATE VS PROTECTED: LET’S COMBINE THEM!](http://phpandme.tumblr.com/post/4391869601/private-vs-protected-lets-combine-them)
 
 What we decide is follow symfony-guys and support [open/closed principle](http://en.wikipedia.org/wiki/Open/closed_principle).
