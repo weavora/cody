@@ -14,11 +14,12 @@
 2. Tables should have plural name 
 
    `users`, `user_profiles`
+   
 3. We __DONT USE__ any magical abbrs and shortcuts 
    
    WRONG: `users2tags`, `user_img`, `kw_repl`
 
-   RIGHT: `user_tags`,`user_images`,`keyword_replacement`
+   RIGHT: `user_tags`,`user_images`,`keyword_replacements`
 
 ## Column names
 
@@ -56,20 +57,20 @@
   
   RIGHT: `created_at`, `last_login_at`
 
-7. Foreign key columns should match `<foreign_table>_<foreign_column>` pattern 
+7. Foreign key columns should match `<singular_foreign_table_name>_<foreign_primary_key>` pattern 
 
-  WRONG: `article.user`, `product.category`, 
+  WRONG: `articles.user`, `products.category`, 
   
-  RIGHT: `article.user_id`, `product.category_code`
+  RIGHT: `articles.user_id` for `users.id`, `products.category_code` for `categories.code`
 
 ## Keys/indexes naming
 
 It's important to keep foreign key names unique across database. 
-To met this requirement we name foreign keys like `<origin_table>_<foreign_table>_<foreign_column>`.
+To met this requirement we name foreign keys like `<origin_table>_<column_name_related_to_foreign_table>`.
 
-WRONG: `product.user_idx`, `article.author`, `post_tags.tag_id`, 
+WRONG: `products.users_idx`, `articles.author`, `post_tags.tag_id`, 
 
-RIGHT: `product.product_user_id`, `article.article_author_id`, `post_tag_tag_id`
+RIGHT: `products.products_user_id`, `articles.articles_author_id`, `post_tags_tag_id`
 
 Indexes names doesn't shared across database and we have no some rules for index names.
 But it's __important__ to specify index name manually and don't use mysql index name auto generation, because to modify this index you will need to guess generated index name.
