@@ -20,3 +20,7 @@ Code conventions for most used programming languages.
 ## MySQL
 
 * [Code conventions](mysql/index.md)
+
+## Git
+
+* [Naming conventions](git/index.md)
