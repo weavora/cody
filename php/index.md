@@ -123,3 +123,28 @@ public function sortBy(\Closure $closure) {
 private $container = null;
 
 ```
+
+## Inline type hinting comments
+
+You're using single line comments to hint type into code blocks.
+
+Examples:
+
+```php
+
+// right way
+
+/** @var $item NS/Item **/
+foreach($items as $item) {
+    // do something
+}
+
+// wrong way
+
+/**
+ * @var $item NS/Item
+ */
+foreach($items as $item) {
+    // do something
+}
+```
