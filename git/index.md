@@ -4,9 +4,9 @@
 
 1. Every branch name should be lowercase and use "-" as words separator
 
-    RIGHT: `generation-improvements`, `123-issue-with-categories`
+    RIGHT: `generation-improvements`, `issue-with-categories`, `issue-3`
 
-    WRONG: `generationImprovements`, `123-issue_with_categories`
+    WRONG: `generationImprovements`, `issue_with_categories`, `3-issue`
 
 2. Versioned branches should be named in format `vX.Y.Z`
 
