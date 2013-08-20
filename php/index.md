@@ -115,7 +115,8 @@ Examples:
  *
  * @return Collection
  */
-public function sortBy(\Closure $closure) {
+public function sortBy(\Closure $closure)
+{
 	return $this;
 }
 
