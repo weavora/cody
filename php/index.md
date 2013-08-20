@@ -43,11 +43,13 @@ public $name; // WRONG
 // CORRECT:
 private $name;
 
-public function setName($name) {
+public function setName($name) 
+{
 	$this->name = $name;
 }
 
-public function getName() {
+public function getName() 
+{
 	return $this->name;
 }
 ```
