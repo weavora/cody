@@ -2,7 +2,7 @@
 
 ## Basics
 
-Our team 100% follow [PSR-0](psr/0.md), [PSR-1](psr/1.md) and [PSR-2](psr/2.md). They define most formatting cases. Please read this references first and only after keep reading other sections.
+Our team 100% follow [PSR-0](psr/0.md), [PSR-1](psr/1.md) and [PSR-2](psr/2.md). They define most formatting cases. This convention is an addition to those standards, but not a replacement.
 
 ## Method naming
 
@@ -31,7 +31,7 @@ protected static function applyTo(Target $target) {}
 
 ## Properties access
 
-We prefer getter/setter instead of public properties.
+We prefer to use getter/setter instead of public properties.
 
 Examples:
 
@@ -54,9 +54,9 @@ public function getName()
 }
 ```
 
-**Note**: You can use `alt + insert` in phpStore for getter/setter generation.
+**Note**: You can use `alt + insert` in PhpStorm IDO to generate getter/setter for property.
 
-## Methods/properties visibility (private vs protected)
+## Methods and properties visibility (private vs protected)
 
 Key question here is whether to make your methods protected or private by default.
 Here are some related references:
