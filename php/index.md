@@ -2,7 +2,12 @@
 
 ## Basics
 
-Our team 100% follow [PSR-0](psr/0.md), [PSR-1](psr/1.md) and [PSR-2](psr/2.md). They define most formatting cases. This convention is an addition to those standards, but not a replacement.
+Our team 100% follow [PSR-0](psr/0.md), [PSR-1](psr/1.md) and [PSR-2](psr/2.md).
+They define most formatting cases. This convention is an addition to those standards, but not a replacement.
+
+You can easily setup our formatting rules in PHPStorm by coping
+`cody/php/.idea/config/codestyles/Weavora.xml` to `<php storm home>/config/codestyles/Weavora.xml`.
+After that you will have `Weavora` code style available under project code style settings.
 
 ## Method naming
 
