@@ -33,3 +33,7 @@
 3. If you want put multiple items in message, please, use ";" as separator
 
     RIGHT: `#89 tasks: active list; #90: tasks: closed list; #91 tasks: issue with task comments`
+
+See also:
+
+[Git hooks](hooks.md)

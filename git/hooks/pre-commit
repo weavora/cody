@@ -1,0 +1,14 @@
+#!/bin/sh
+
+php ./.git/hooks/php-lint.php
+LINT_RESULT=$?
+
+pwd .
+
+if [ $LINT_RESULT -ne 0 ]; then
+    echo "Failed with PHP lint"
+    exit $LINT_RESULT
+fi
+
+php ./.git/hooks/php-cs-fixer.php
+exit $?
