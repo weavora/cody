@@ -19,7 +19,7 @@ foreach ($output as $file) {
 
     // validate with lint
     $lintOutput = array();
-    exec("php -l " . escapeshellarg($fileName) . " 2> /dev/null", $lintOutput, $return);
+    exec("php -l " . escapeshellarg($fileName) . " 2> .git/hooks/php-lint.last.log", $lintOutput, $return);
 
     if ($return != 0) {
         $errors[$fileName] = array();

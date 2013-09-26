@@ -20,7 +20,9 @@ foreach ($output as $file) {
     /**
      * PHP-CS-Fixer && add it back
      */
-    exec("php-cs-fixer fix {$fileName} --level=all --config=sf21; git add {$fileName}", $out);
+    $out = array();
+    exec("php-cs-fixer fix {$fileName} --level=all --config=sf21", $out);
+    exec("git add {$fileName}", $out);
 }
 
 echo "PHP CS fixer: OK" . PHP_EOL;
