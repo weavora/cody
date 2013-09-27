@@ -18,7 +18,7 @@ Linux/MacOS:
 
 ```sh
 cd <your-project-folder>
-rm -f .git/hooks
+rm -r .git/hooks
 ln -s <path-to-cody>/git/hooks .git/hooks
 chmod +x .git/hooks/pre-commit
 ```
