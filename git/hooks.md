@@ -17,10 +17,10 @@ When you get this done you can create symlink `<path-to-cody>/git/hook` to `<you
 Linux/MacOS:
 
 ```sh
-cd <your-project-folder>
-rm -r .git/hooks
-ln -s <path-to-cody>/git/hooks .git/hooks
-chmod +x .git/hooks/pre-commit
+cd <your-project-folder>/.git
+rm -r hooks
+ln -s <path-to-cody>/git/hooks hooks
+chmod +x hooks/pre-commit
 ```
 
 Windows:
