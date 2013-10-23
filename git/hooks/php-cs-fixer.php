@@ -13,7 +13,7 @@ foreach ($output as $file) {
     /**
      * Only PHP file
      */
-    if (!pathinfo($fileName, PATHINFO_EXTENSION) == "php") {
+    if (pathinfo($fileName, PATHINFO_EXTENSION) != "php") {
         continue;
     }
 
