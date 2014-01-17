@@ -2,13 +2,13 @@
 
 ## Branches/tags naming conventions
 
-1. Every branch name should be lowercase and use "-" as words separator
+1. Every branch name should be lowercased and use "-" as a word separator
 
     RIGHT: `generation-improvements`, `issue-with-categories`, `issue-3`
 
     WRONG: `generationImprovements`, `issue_with_categories`, `3-issue`
 
-2. Versioned branches should be named in format `vX.Y.Z`
+2. Versioned branches should be named as `vX.Y.Z`
 
     RIGHT: `v1.0`, `v2.0.5`
 
@@ -18,19 +18,19 @@
 ## Commit messages conventions
 
 
-1. If message contains issue reference it should be placed first, prepended with "#" and appended with space
+1. If a message contains an issue reference, the number should be placed first, prepended with "#" and appended with a space
 
     RIGHT: `#56 tasks: add/edit form`
 
     WRONG: `#56. tasks: add/edit form`, `tasks: add/edit form for #56`
 
-2. Commit message should contains text which can identify what you did in commit without following to references
+2. A commit message should contain text that identifies what you have done in the commit without the necessity to follow references
 
     RIGHT: `#218 products: list view for category`
 
     WRONG: `#218 list view for category`
 
-3. If you want put multiple items in message, please, use ";" as separator
+3. If you want to put multiple items in a message, please use ";" as a separator
 
     RIGHT: `#89 tasks: active list; #90: tasks: closed list; #91 tasks: issue with task comments`
 
