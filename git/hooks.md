@@ -1,18 +1,18 @@
 # Git Hooks
 
-There are several git hooks that can improve code quality and some stupid mistakes.
+There are several git hooks that can improve code quality and help avoid some silly mistakes.
 
 `pre-commit` hooks:
 
- - php lint: validate php files syntax (`php -l`)
- - php-cs-fixer: fix php formatting regarding symfony 2.1 coding standards
+ - php lint: validates php files syntax (`php -l`)
+ - php-cs-fixer: fixes php formatting based on symfony 2.1 coding standards
 
 ### Hooks Setup
 
-You will need to clone `cody` repository locally.
-Also you will need to install [php-cs-fixer](https://github.com/fabpot/php-cs-fixer).
+You will need to clone the `cody` repository locally.
+You will also need to install [php-cs-fixer](https://github.com/fabpot/php-cs-fixer).
 
-When you get this done you can create symlink `<path-to-cody>/git/hook` to `<your-project-folder>/.git/hooks`:
+When you get this done, you can create a symlink `<path-to-cody>/git/hook` to `<your-project-folder>/.git/hooks`:
 
 Linux/MacOS:
 
