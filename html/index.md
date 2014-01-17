@@ -2,7 +2,7 @@
 
 ## CSS classes naming
 
-1. Every CSS class name should be lowercase and use "-" as words separator
+1. Every CSS class name should be written in lowercase letters and use "-" as a word separator
 
     RIGHT: `item`, `inner-container`, `products-category-description`
 
@@ -10,7 +10,7 @@
 
 ## IDs naming
 
-1. Every HTML element id should be lowercase and use "_" as words separator
+1. Every HTML element id should be written in lowercase letters and use "_" as a word separator
 
     RIGHT: `product`, `category_1_description`, `menu_item`
 
@@ -18,7 +18,7 @@
 
 ## Data-attributes naming (`<div data-item="value"></div>`)
 
-1. Every data-attribute name should be lowercase and use "-" as words separator
+1. Every data-attribute name should be written in lowercase letters and use "-" as a word separator
 
     RIGHT: `data-id`, `data-category-id`, `data-folder-type`
 
