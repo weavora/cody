@@ -1,6 +1,6 @@
 # Cody
 
-Code conventions for most used programming languages.
+Code conventions for mostly used programming languages.
 
 ## PHP
 
