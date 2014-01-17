@@ -3,4 +3,4 @@
 ### PhpStrorm JSHint configure:
 
 - Open `Settings > JavaScript > Code Quality Tools > JSHint`
-- Check `Use Config Files` and chose [.jshintrc](https://github.com/weavora/cody/blob/master/js/.jshintrc)
+- Check `Use Config Files` and choose [.jshintrc](https://github.com/weavora/cody/blob/master/js/.jshintrc)
