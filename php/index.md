@@ -156,3 +156,34 @@ foreach($items as $item) {
     // do something
 }
 ```
+
+## Boolean naming
+
+Use adjective in code, and is_+adjective in DB
+Examples:
+
+```php
+//variables
+
+/**
+* @var boolean
+**/
+protected $published;
+protected $activated;
+
+//seters
+
+public function setPublished($published) {...};
+public function setActivated($activated) {...};
+
+//geters
+
+public function isPublished($published) {...};
+public function isActivated($activated) {...};
+
+//DB
+
+is_activated
+is_published
+
+```
