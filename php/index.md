@@ -9,6 +9,22 @@ You can easily set up our formatting rules in PHPStorm by copying
 `cody/php/.idea/config/codestyles/Weavora.xml` to `<php storm home>/config/codestyles/Weavora.xml`.
 After that you will have `Weavora` code style available under project code style settings.
 
+## Namespaces
+
+There are **MUST** be empty line before namespace declaration and after.
+
+```php
+<?php
+
+namespace Weavora\SomePackage;
+
+use SomeOtherClass;
+
+class SomeClass {
+
+}
+```
+
 ## Method naming
 
 Here are few patterns we use for method names:
