@@ -20,7 +20,8 @@ namespace Weavora\SomePackage;
 
 use SomeOtherClass;
 
-class SomeClass {
+class SomeClass
+{
 
 }
 ```
