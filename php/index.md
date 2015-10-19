@@ -11,7 +11,7 @@ After that you will have `Weavora` code style available under project code style
 
 ## Namespaces
 
-There are **MUST** be empty line before namespace declaration and after.
+There are **MUST** be empty line **before** and **after** namespace declaration.
 
 ```php
 <?php
